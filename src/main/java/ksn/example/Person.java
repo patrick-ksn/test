@@ -1,19 +1,19 @@
 package ksn.example;
 
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
+@AllArgsConstructor
 public class Person {
 
 
-    @Setter private String name;
+    private String firstName;
 
-    @Setter
-    private String surname;
+    private String lstName;
 
-
-    private String id;
+    private int id;
 
 }
