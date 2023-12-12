@@ -14,7 +14,7 @@ public class StreamAPI {
 
         list.stream().peek(System.out::println).count();
 
-
+        System.out.println("dfd");
     }
 
 }
