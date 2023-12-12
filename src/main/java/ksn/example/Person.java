@@ -13,4 +13,7 @@ public class Person {
     @Setter
     private String surname;
 
+
+    private String id;
+
 }
